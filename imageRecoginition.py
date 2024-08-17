@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 
 # Define the path to your image (relative path from the script location)
-image_path = "imagesm.jpg"
+image_path = "https://github.com/deepakrll/pytorch/blob/main/image.jpg"
 
 # Load the image
 img = Image.open(image_path)
